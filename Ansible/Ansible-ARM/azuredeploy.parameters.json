@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "adminUsername": {
+            "value": "azureadmin"
+        },
+        "vmName": {
+            "value": "VMName"
+        },
+        "VMSize": {
+            "value": "Standard_B1s"
+        },
+        "availabilitySetName": {
+            "value": "AVName"
+        },
+        "DiskSKU": {
+            "value": "Standard_LRS"
+        },
+        "location": {
+            "value": "West Europe"
+        },
+        "subscriptionid": {
+            "value": "SubID"
+        },
+        "virtualnetworkname": {
+            "value": "VNETName"
+        },
+        "virtualnetworkresourcegroup": {
+            "value": "VNETRG"
+        },
+        "subnetname": {
+            "value": "SubnetName"
+        },
+        "authenticationType": {
+            "value": "sshPublicKey"
+        },
+        "adminPasswordOrKey": {
+            "value": "Password Or SSH Key"
+        }
+    }
+}
